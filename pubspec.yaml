@@ -1,0 +1,39 @@
+name: fitflow
+description: A minimalist, free home workout app for Nigerians.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  riverpod_annotation: ^2.1.1
+  go_router: ^10.1.2
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.0
+  cloud_firestore: ^4.8.2
+  firebase_storage: ^11.2.4
+  cached_network_image: ^3.2.3
+  video_player: ^2.7.0
+  flutter_cache_manager: ^3.3.1
+  google_fonts: ^5.1.0
+  fl_chart: ^0.63.0
+  intl: ^0.18.1
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  riverpod_generator: ^2.2.3
+  riverpod_lint: ^2.1.1
+  custom_lint: ^0.5.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/videos/
+    - assets/images/
+    - assets/icons/
