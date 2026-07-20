@@ -18,7 +18,7 @@ dependencies:
   cached_network_image: ^3.2.3
   video_player: ^2.7.0
   flutter_cache_manager: ^3.3.1
-  google_fonts: ^5.1.0
+  google_fonts: ^8.2.0
   fl_chart: ^0.63.0
   intl: ^0.18.1
   shared_preferences: ^2.2.0
